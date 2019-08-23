@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 36,
+        "name": "Login for testme app",
+        "description": "",
+        "id": "validation-for-testme-app-registration;login-for-testme-app;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27144270700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User launch the site",
+            "match": {
+              "location": "Scenario_1.user_launch_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111248900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters  name \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Scenario_1.user_enters_name(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93960000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters  pas \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Scenario_1.user_enters_pas(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33325420200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Scenario_1.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Product search and purchase",
+        "description": "",
+        "id": "validation-for-testme-app-registration;product-search-and-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2889304500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Product Search Engine",
+            "match": {
+              "location": "Scenario_1.product_Search_Engine()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1274713600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User proceed towards adding product to cart",
+            "match": {
+              "location": "Scenario_1.user_proceed_towards_adding_product_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172202300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User click on cart link",
+            "match": {
+              "location": "Scenario_1.user_click_on_cart_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34821100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User verifies the product is correctly added to the cart",
+            "match": {
+              "location": "Scenario_1.user_verifies_the_product_is_correctly_added_to_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1240980300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on checkout for payment",
+            "match": {
+              "location": "Scenario_1.user_clicks_on_checkout_for_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 502422800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Review the product and click on proceed to pay",
+            "match": {
+              "location": "Scenario_1.user_Review_the_product_and_click_on_proceed_to_pay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3661366400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User select the bank of his/her choice",
+            "match": {
+              "location": "Scenario_1.user_select_the_bank_of_his_her_choice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 544304900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User clicks on continue for further details",
+            "match": {
+              "location": "Scenario_1.user_clicks_on_continue_for_further_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 569450700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User give valid credentials according to selected bank",
+            "match": {
+              "location": "Scenario_1.user_give_valid_credentials_according_to_selected_bank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1362894200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User than give the required transaction password",
+            "match": {
+              "location": "Scenario_1.user_than_give_the_required_transaction_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38618300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User verifies for the order is confirmed",
+            "match": {
+              "location": "Scenario_1.user_verifies_for_the_order_is_confirmed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "User moves to cart without adding any item in it",
+        "description": "",
+        "id": "validation-for-testme-app-registration;user-moves-to-cart-without-adding-any-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62693136000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User registered in TestMeApp",
+            "match": {
+              "location": "Scenario_1.user_registered_in_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 634626300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User Search for product like headphones",
+            "match": {
+              "location": "Scenario_1.user_Search_for_product_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34300100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "Scenario_1.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "TestMe doesn\u0027t display the cart icon",
+            "match": {
+              "location": "Scenario_1.testme_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validation for testme app registration",
+    "description": "",
+    "id": "validation-for-testme-app-registration",
+    "keyword": "Feature",
+    "uri": "C:/Users/training_h2a.06.15/Desktop/Selenium_workplace/CaseStudy_Cucumber/Cucumber_CaseStudy/Scenario1.feature",
+    "tags": []
+  }
+]
